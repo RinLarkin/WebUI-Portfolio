@@ -1,6 +1,8 @@
 <script>
     import { onMount } from 'svelte';
 
+    import { base } from '$app/paths';
+
     onMount(() =>
     {
         console.log("Portfolio Page Loaded");
@@ -8,11 +10,11 @@
 </script>
 
 <div>
-    <h1><a href="/projects">Projects</a></h1>
+    <h1><a href="{base}/projects">Projects</a></h1>
 </div>
 
 <div>
-    <h1><a href="/gallery">Gallery</a></h1>
+    <h1><a href="{base}/gallery">Gallery</a></h1>
 </div>
 
 <style>

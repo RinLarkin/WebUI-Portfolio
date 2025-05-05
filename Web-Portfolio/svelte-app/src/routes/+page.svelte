@@ -5,6 +5,8 @@
     {
         console.log("Home Page Loaded");
     });
+
+    import { base } from '$app/paths';
 </script>
 
 <head>
@@ -13,7 +15,7 @@
 
 <body>
     <div>
-        <img src="logo.png" alt="Website Logo">;
+        <img src="{base}/logo.png" alt="Website Logo">;
     </div>
 </body>
 

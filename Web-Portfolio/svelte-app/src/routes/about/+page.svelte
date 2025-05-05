@@ -1,13 +1,15 @@
 <script>
     import { onMount } from 'svelte';
 
+    import { base } from '$app/paths';
+
     onMount(() =>
     {
         console.log("About Page Loaded");
     });
 </script>
 
-<img src="profile.png" alt="Profile">
+<img src="{base}/profile.png" alt="Profile">
 
 <h1>About Me</h1>
 
